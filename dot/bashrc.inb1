@@ -27,3 +27,5 @@ Usage: prepath [-f] [-n] [-q] DIR
     fi
     PATH="$dir:$PATH"
 }
+
+interactive() { [[ $- = *i* ]]; }
