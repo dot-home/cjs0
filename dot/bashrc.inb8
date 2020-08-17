@@ -6,4 +6,4 @@ prepath -f -n -q $HOME/.local/bin
 
 #   My most commonly-used and -missed functions, but we don't override
 #   them if they have already been set by previous configuration.
-type -t lf >/dev/null || lf() { ls -CF "$@"; }
+type -t lf >/dev/null || alias lf="ls -CF"
